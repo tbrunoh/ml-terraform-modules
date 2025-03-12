@@ -1,0 +1,4 @@
+*/.terraform*
+*/.DS_STORE
+.DS_STORE
+.terraform
