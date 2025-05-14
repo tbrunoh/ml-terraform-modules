@@ -16,7 +16,7 @@ output "cosmosdb_account_primary_master_key" {
 }
 
 output "cosmosdb_account_primary_readonly_master_key" {
-  value       = azurerm_cosmosdb_account.cosmosdb_account.primary_readonly_master_key
+  value       = azurerm_cosmosdb_account.cosmosdb_account.primary_readonly_key  # Corrected attribute name
   description = "The primary read-only master key for the Cosmos DB account."
   sensitive   = true
 }
