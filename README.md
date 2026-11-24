@@ -47,6 +47,10 @@ Pin a tag with `ref=` so module changes never surprise a deployment.
 
 The cloud environment behind this project has been retired. The code is published as a reference implementation, and every endpoint, key and project identifier in configuration files is a placeholder you replace with your own.
 
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).
+
 ---
 
 <sub>Maintained by <a href="https://github.com/tbrunoh">Tom Bruno</a>. Original engineering by Nelson Kigen. Part of <a href="https://github.com/tbrunoh#inclusive-skin-ai">Inclusive Skin AI</a>.</sub>
