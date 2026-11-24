@@ -15,7 +15,7 @@ variable "pg_admin_password" {
   description = "Admin password for PostgreSQL"
   type        = string
   sensitive   = true
-  default     = "4VVW1P6sriEK"
+  # no default: supply via TF_VAR_pg_admin_password
 }
 
 variable "pg_sku" {
